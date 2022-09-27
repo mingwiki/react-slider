@@ -1,0 +1,22 @@
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  // display: block;
+}
+
+.slider {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+
+  .item {
+    position: absolute;
+    // width: 100%;
+    top: 0;
+    left: 0;
+    // flex-grow: 1;
+    // flex-shrink: 0;
+  }
+}
