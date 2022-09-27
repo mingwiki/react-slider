@@ -1,7 +1,6 @@
 import React, { useRef, useEffect, useState, useCallback } from 'react';
 export const log = log => console.debug({ ...log });
 export const useWidth = (ref, numbers, gap) => {
-  const temp = useRef(null);
   const [containerWidth, setContainerWidth] = useState(0);
   const [itemWidth, setItemWidth] = useState(0);
   const [slideWidth, setSlideWidth] = useState(0);
